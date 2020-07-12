@@ -35,9 +35,9 @@ def printer(attendees)
   end
   
 
-  rooms.each do|item,index|
+  rooms.each do|assign|
   binding.pry
-  puts "#{rooms}"
+  puts assign
   
   end
   
