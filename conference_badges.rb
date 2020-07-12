@@ -15,7 +15,7 @@ def assign_rooms(name, number)
 end
   
 def room_assigment(item, index)
-  number +=
+  
   rooms = []
   array.each_with_index {|item, index| room[item] = index}
     rooms << assign_rooms(name, number)
