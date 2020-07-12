@@ -29,7 +29,7 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
 
   badges.each do|name|
-  puts "#{badges}"
+  puts #{name}
   
   end
   
