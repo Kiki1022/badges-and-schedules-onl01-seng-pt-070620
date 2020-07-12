@@ -16,7 +16,7 @@ end
   
 def printer
 count = 0
-
+while 
 end
 
 
