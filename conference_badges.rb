@@ -15,6 +15,7 @@ def assign_rooms(name, number)
 end
   
 def printer
+count = 0
 
 end
 
