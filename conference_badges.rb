@@ -13,10 +13,14 @@ end
 def assign_rooms(array)
   attendees = []
   array.each_with_index |item| |index|
-  attendees << 
+  attendees << "Hello, #{item}! You'll be assigned to room #{index}!"
+end
   return 
 end
   
+
+
+
 def printer
 
 
