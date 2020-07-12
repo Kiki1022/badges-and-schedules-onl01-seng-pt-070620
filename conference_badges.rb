@@ -10,7 +10,7 @@ end
   badges
 end  
 
-def assign_rooms(name, number)
+def assign_rooms(array)
   return "Hello, #{name}! You'll be assigned to room #{number}!"
 end
   
