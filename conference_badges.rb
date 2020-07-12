@@ -30,7 +30,7 @@ def printer(attendees)
 
   badges.each do|name|
   binding.pry
-  puts #{name}
+  puts name
   
   end
   
