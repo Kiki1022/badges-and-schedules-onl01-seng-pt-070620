@@ -12,7 +12,7 @@ end
 end  
 
 def assign_rooms(array)
-  binding.pry
+  #binding.pry
   
   attendees = []
   array.each_with_index do|item, index|
@@ -24,7 +24,7 @@ end
 
 
 def printer(attendees)
-binding.pry
+
   badges = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
 
