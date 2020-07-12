@@ -23,13 +23,16 @@ end
 
 def printer(attendees)
 
-badges = batch_badge_creator(array)
-rooms = assign_rooms(array)
+  badges = batch_badge_creator(array)
+  rooms = assign_rooms(array)
 
-badges.each do|name|
-rooms.each do|item,index|
-end
-return
+  badges.each do|name|
+
+  end
+
+  rooms.each do|item,index|
+  end
+
 end
 
 
