@@ -21,24 +21,7 @@ end
   
 
 
+def printer(attendees)
 
-def assign_rooms(array)
-  attendees = []
-  array.each_with_index |item| |index|
-  attendees << "Hello, #{item}! You'll be assigned to room #{index}!"
-end
-  return 
-end
-  
-
-end
-
-def assign_rooms(array)
-  attendees = []
-  array.each_with_index |item| |index|
-  attendees << "Hello, #{item}! You'll be assigned to room #{index}!"
-end
-  return 
-end
-  
-
+badges = batch_badge_creator(array)
+rooms = assign_rooms(array)
