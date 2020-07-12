@@ -12,7 +12,7 @@ end
 
 def assign_rooms(array)
   attendees = []
-  
+  array.each_with_index
   return "Hello, #{name}! You'll be assigned to room #{number}!"
 end
   
