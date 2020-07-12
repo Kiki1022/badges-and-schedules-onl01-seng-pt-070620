@@ -27,12 +27,15 @@ def printer(attendees)
   rooms = assign_rooms(array)
 
   badges.each do|name|
+  puts "#{badges}"
 
   end
 
   rooms.each do|item,index|
+  puts "#{rooms}"
+  
   end
-
+  
 end
 
 
