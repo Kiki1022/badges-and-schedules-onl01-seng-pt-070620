@@ -29,14 +29,12 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
 
   badges.each do|name|
-  binding.pry
   puts name
   
   end
   
 
   rooms.each do|assign|
-  binding.pry
   puts assign
   
   end
