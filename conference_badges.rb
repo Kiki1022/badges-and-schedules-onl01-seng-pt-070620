@@ -29,7 +29,8 @@ rooms = assign_rooms(array)
 badges.each do|name|
 rooms.each do|item,index|
 end
-
+return
+end
 
 
 
