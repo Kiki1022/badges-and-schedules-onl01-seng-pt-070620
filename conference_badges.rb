@@ -23,8 +23,8 @@ end
 
 def printer(attendees)
 binding.pry
-  badges = batch_badge_creator(array)
-  rooms = assign_rooms(array)
+  badges = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
 
   badges.each do|name|
   puts "#{badges}"
