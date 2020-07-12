@@ -12,7 +12,7 @@ end
 end  
 
 def assign_rooms(array)
-  #binding.pry
+  
   
   attendees = []
   array.each_with_index do|item, index|
